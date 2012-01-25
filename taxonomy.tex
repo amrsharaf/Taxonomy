@@ -182,44 +182,70 @@ traditional bag of words representation.
 \paragraph{Date} 2003
 \paragraph{Citations} 14
 \paragraph{Main Topic}
-Proposing an automatic system to classify mail message for contact centers
-mails are categorized into 2 classes
-Single messages : messages that don’t require a response
-Root messages : messages that require immediate response
-those message can be sub divided into 3 classes
-Root : the start of the communication (contains a problem or a question)
-inner : communication on a certain problem
-leaf : marks the end of this interaction (eg. the problem was solved)
+\begin{itemize}
+    \item Proposing an automatic system to classify mail message for contact centers;
+    \item mails are categorized into 2 classes;
+    \begin{itemize}
+        \item Single messages : messages that don’t require a response;
+        \item Root messages : messages that require immediate response;
+        \item Root messages can be sub divided into 3 classes;
+        \begin{itemize}
+            \item Root : the start of the communication (contains a problem or a question);
+            \item inner : communication on a certain problem;
+            \item leaf : marks the end of this interaction (eg. the problem was solved).
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+
 \paragraph{Tools used}
-Rainbow : an implementation for naive bayess algorithm
-svmlight : an implementation for SVM algorithm
-wordNet : used for parts of speach taging
-Ltchunk : used to identify noun phrases and count number of sentences in email.
+\begin{itemize}
+    \item Rainbow : an implementation for naive bayess algorithm;
+    \item svmlight : an implementation for SVM algorithm;
+    \item wordNet : used for parts of speach taging;
+    \item Ltchunk : used to identify noun phrases and count number of sentences in email.
+\end{itemize}
 
 \paragraph{Dataset}
-Pine-info discussion list web archive
-http://www.washington.edu/pine/pine-info
+\begin{itemize}
+    \item Pine-info discussion list web archive;
+    \begin{itemize}
+        \item http://www.washington.edu/pine/pine-info.
+    \end{itemize}
+\end{itemize}
 
-\paragraph{Pre processing}
-removing reply blocks (blocks from previous emails in the current mail)
-removing signature blocks
+\paragraph{Pre-processing}
+\begin{itemize}
+    \item removing reply blocks (blocks from previous emails in the current mail);
+    \item removing signature blocks.
+\end{itemize}
 
 \paragraph{Features (for SVM algorithm)}
-Non-infected words
-nouns,verbs,adjective,adverb
-using wordNet
-Noun phrases
-using Ltchunk
-Verb phrases
-Punctuation letters count
-assuming that single message will have different punctuation than letters count
-Length of email (number of sentences)
-using Ltchunk
-Dictionary
-2 dictionaries were made one for the most common words in single messages and the other for the most common words in root message
+\begin{itemize}
+    \item Non-infected words;
+    \begin{itemize}
+        \item nouns,verbs,adjective,adverb;
+        \item using wordNet;
+    \end{itemize}
+    \item Noun phrases;
+    \begin{itemize}
+        \item using Ltchunk;
+    \end{itemize}
+    \item Verb phrases;
+    \item Punctuation letters count;
+    \item Length of email (number of sentences);
+    \begin{itemize}
+        \item using Ltchunk;
+    \end{itemize}
+    \item Dictionary;
+    \begin{itemize}
+        \item 2 dictionaries were made one for the most common words in single messages and the other for the most common words in root message.
+    \end{itemize}
+\end{itemize}
 
 \paragraph{Conclusion}
-High accuracy was achieved on root vs leaf (92%) , root vs inner (87%) and root vs single(79%)
+\begin{itemize}
+    \item High accuracy was achieved on root vs leaf (92\%) , root vs inner (87\%) and root vs single(79\%)
+\end{itemize}
 
 
 
