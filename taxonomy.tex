@@ -23,22 +23,40 @@
 \newpage
 
 \section{Abstract}
-In this document we present a survey and taxonomy on recent research topics related to email classification and summarization. This document summarizes and organizes recent research results in the novel way that integrates and adds understanding to work in the field of email classification and summarization. It emphasizes the classification of the existing literature, developing a perspective on the area, and evaluating different trends.
+In this document we present a survey and taxonomy on recent research topics 
+related to email classification and summarization. This document summarizes 
+and organizes recent research results in the novel way that integrates and 
+adds understanding to work in the field of email classification and 
+summarization. It emphasizes the classification of the existing literature, 
+developing a perspective on the area, and evaluating different trends.
 
 \paragraph{Keywords}
 Email, Classification, Summarization, Machine Learning.
 
 \section{Introduction}
-Email has been an efficient and popular communication mechanism as the number of Internet users increases. Therefore, email management has become an important and growing problem for individuals and organizations because it is prone to misuse. One of the problems that are most paramount is disordered email message, congested and unstructured emails in mail boxes. It may be very hard to find archived email message, search for previous emails with specified contents or features when the mails are not well structured and organized.
+Email has been an efficient and popular communication mechanism as the 
+number of Internet users increases. Therefore, email management has become 
+an important and growing problem for individuals and organizations because 
+it is prone to misuse. One of the problems that are most paramount is disordered 
+email message, congested and unstructured emails in mail boxes. It may be very 
+hard to find archived email message, search for previous emails with specified 
+contents or features when the mails are not well structured and organized.
 
-Many machine learning approaches have been applied in this field, the most State-of-the-Art algorithms in email classification include: support vector machines, neural network, naïve bayes classifiers and entropy-based approach. 
+Many machine learning approaches have been applied in this field, the most 
+State-of-the-Art algorithms in email classification include: support vector 
+machines, neural network, naïve bayes classifiers and entropy-based approach. 
 
-Email summarization is another important and challenging problem. We can think of automatic summarization as a type of information compression. To achieve such compression, better modelling and understanding of document structures and internal relations is required. 
+Email summarization is another important and challenging problem. We can think 
+of automatic summarization as a type of information compression. To achieve such 
+compression, better modelling and understanding of document structures and internal 
+relations is required. 
 
-In this document we present a survey and taxonomy on recent research topics related to email classification and summarization.
+In this document we present a survey and taxonomy on recent research topics 
+related to email classification and summarization.
 
 \section{Email Classification Taxonomy}
-The following table classifies some recent research papers in the field of email classification according to the different learning algorithms used in different papers
+The following table classifies some recent research papers in the field of email 
+classification according to the different learning algorithms used in different papers
 
 
 \begin{tabular}{|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|}
@@ -75,23 +93,28 @@ Automatic Categorization of Emails into Folders &
 \section{Papers Summary}
 \subsection{Email Classification}
 
-\subsubsection{Automatic Categorization of Email into Folders}
+\subsubsection{Automatic Categorization of Email into Folders \cite{RON04}}
 
 \paragraph{Year} 2004
 \paragraph{Citations} 112
 \paragraph{Introduction}
 \begin{itemize}
-  \item users get alot of emails this days, not just spam but a large number of legitmate emails also that they need to process in a short time;
-  \item the paper shows the results of an extensive benchmark on two large corpora (enron,sri) of 4 classification algorithms;
+  \item users get alot of emails this days, not just spam but a large number of 
+	legitmate emails also that they need to process in a short time;
+  \item the paper shows the results of an extensive benchmark on two large corpora 
+	(enron,sri) of 4 classification algorithms;
   \item the paper shows an enhancement to the exponential gradient method (winnow).
 \end{itemize}
 
 \paragraph{Related Work}
 \begin{itemize}
-  \item Clark and Niblet 1989: proposed a rule inductive algorithm CN2 and showed that it can outperform KNN;
-  \item Cohen 1996: proposed the RIPPER classifier and showed that that it can outperfrom an tfidf classifier;
+  \item Clark and Niblet 1989: proposed a rule inductive algorithm CN2 and 
+	showed that it can outperform KNN;
+  \item Cohen 1996: proposed the RIPPER classifier and showed that that it 
+	can outperfrom an tfidf classifier;
   \item Provost 1999: showed that Naive bayes can outperform RIPPER;
-  \item Remmie 2000: achived a very high accuracy by classifying mails to 3 predefined folders ;
+  \item Remmie 2000: achived a very high accuracy by classifying mails to 
+	3 predefined folders ;
   \item Kiritchenko and Malwin 2001: showed that SVM can outperfom Naive Bayes.
 \end{itemize}
 
@@ -106,22 +129,26 @@ Automatic Categorization of Emails into Folders &
 
 \paragraph{Challenges in mail classification}
 \begin{itemize}
-  \item Email users often create folders and let it fall out of use (small no. of training data per folder);
-  \item folders don’t necessarily correspond to simple semantic topics (unfinished todos , project groups, certain recipient);
+  \item Email users often create folders and let it fall out of use 
+	(small number of training data per folder);
+  \item folders don’t necessarily correspond to simple semantic topics 
+	(unfinished todos, project groups, certain recipient);
   \item differ drastically from one user to another;
-  \item Email arrives in a stream over time which causes more difficulties , for example the topic of main folder can drift over time.
+  \item Email arrives in a stream over time which causes more difficulties, 
+	for example the topic of main folder can drift over time.
 \end{itemize}
 
 
 \paragraph{Data set pre-processing}
 \begin{itemize}
-    \item removing non topical folders (Inbox , sent , trash , … );
-    \item removing small folders ( folders that has a small number of emails).
+    \item removing non topical folders (Inbox, sent, trash, ...etc);
+    \item removing small folders (folders that has a small number of emails).
 \end{itemize}
 
 \paragraph{Training/test set splits}
 \begin{itemize}
-    \item The paper shows a new way to split training data into training set and test sit , the new method takes time factor into considerations;
+    \item The paper shows a new way to split training data into training set 
+	  and test sit , the new method takes time factor into considerations;
     \item it works as follows;
     \begin{itemize}
         \item sorting emails by time;
@@ -141,15 +168,21 @@ traditional bag of words representation.
     \item Enron : http://www.cs.cmu.edu/~enron/
     \begin{itemize}
         \item 150 users with more than 500,000 Emails;
-        \item Applied to the following 7 employees folder only (the largest 7 folders : beck-s,farmer-d, kaminski-v, kitchen-l, lokay-m, sanders-r and williams-w3);
-        \item Removed the non topical folders like “all documents”, “calendar”, “contacts”, “deleted items”, “discussion threads”, “inbox”, “notes inbox”, “sent”, “sent items” and “ sent mail”;
+        \item Applied to the following 7 employees folder only 
+	      (the largest 7 folders : beck-s,farmer-d, kaminski-v, 
+	      kitchen-l, lokay-m, sanders-r and williams-w3);
+        \item Removed the non topical folders like ``all documents'', 
+	      ``calendar'', ``contacts'', ``deleted items'', ``discussion threads'', 
+	      ``inbox'', ``notes inbox'', ``sent'', ``sent items'' and ``sent mail'';
         \item Flatten all the folder hierarchies;
         \item Removed folders with less than 3 messages;
-        \item Removed the X-Folder field from email messages. (The X-Folder field contains the class label).
+        \item Removed the X-Folder field from email messages. (The X-Folder 
+	      field contains the class label).
     \end{itemize}
     \item SRI : http://www.ai.sri.com/project/CALO
     \begin{itemize}
-        \item Applied to the following 7 folders only : acheyer, bmark, disrael, mgervasio, mgondek, rperrault ,and vchaudri;
+        \item Applied to the following 7 folders only : acheyer, bmark, disrael, 
+	      mgervasio, mgondek, rperrault ,and vchaudri;
         \item Removed the non topical folders( inbox , draft, sent , trash );
         \item Flatten all the folder hierarchies;
         \item Removed folders with less than 3 messages.
@@ -158,7 +191,7 @@ traditional bag of words representation.
 
 \paragraph{Critique}
 \begin{itemize}
-    \item They didn’t use Stemming in their preprocessing to the dataset;
+    \item they didn’t use Stemming in their preprocessing to the dataset;
     \item not including precision , recall and f1 score for accuracy measures.
 \end{itemize}
 
@@ -170,27 +203,31 @@ traditional bag of words representation.
 
 \paragraph{Future Work}
 \begin{itemize}
-    \item Different sections of each email can be treated differently. For example, the system could create distinct features for words appearing in the header, body, signature, attachments, etc.;
-    \item Named entities may be highly relevant features. It would be desirable to incorporate a named entity extractor (such as MinorThird3 , see, e.g., Cohen and Sarawagi (2004)) into the foldering system.
+    \item different sections of each email can be treated differently. 
+	  For example, the system could create distinct features for words appearing 
+	  in the header, body, signature, attachments, ...etc;
+    \item named entities may be highly relevant features. It would be desirable to 
+	  incorporate a named entity extractor (such as MinorThird3 , see, e.g., 
+	  Cohen and Sarawagi (2004)) into the foldering system.
 \end{itemize}
 
 
 
+%==============================================================================
 
-
-\subsubsection{Email Classifications For Contact Centers}
+\subsubsection{Email Classifications For Contact Centers \cite{ANI03}}
 \paragraph{Year} 2003
 \paragraph{Citations} 14
 \paragraph{Main Topic}
 \begin{itemize}
-    \item Proposing an automatic system to classify mail message for contact centers;
-    \item mails are categorized into 2 classes;
+    \item proposing an automatic system to classify mail message for contact centers;
+    \item mails are categorized into 2 classes
     \begin{itemize}
-        \item Single messages : messages that don’t require a response;
-        \item Root messages : messages that require immediate response;
-        \item Root messages can be sub divided into 3 classes;
+        \item single messages : messages that don’t require a response;
+        \item root messages : messages that require immediate response;
+        \item root messages can be sub divided into 3 classes
         \begin{itemize}
-            \item Root : the start of the communication (contains a problem or a question);
+            \item root : the start of the communication (contains a problem or a question);
             \item inner : communication on a certain problem;
             \item leaf : marks the end of this interaction (eg. the problem was solved).
         \end{itemize}
@@ -200,14 +237,14 @@ traditional bag of words representation.
 \paragraph{Tools used}
 \begin{itemize}
     \item Rainbow : an implementation for naive bayess algorithm;
-    \item svmlight : an implementation for SVM algorithm;
-    \item wordNet : used for parts of speach taging;
+    \item SVMlight : an implementation for SVM algorithm;
+    \item WordNet : used for parts of speach taging;
     \item Ltchunk : used to identify noun phrases and count number of sentences in email.
 \end{itemize}
 
 \paragraph{Dataset}
 \begin{itemize}
-    \item Pine-info discussion list web archive;
+    \item Pine-info discussion list web archive
     \begin{itemize}
         \item http://www.washington.edu/pine/pine-info.
     \end{itemize}
@@ -221,44 +258,47 @@ traditional bag of words representation.
 
 \paragraph{Features (for SVM algorithm)}
 \begin{itemize}
-    \item Non-infected words;
+    \item non-infected words
     \begin{itemize}
-        \item nouns,verbs,adjective,adverb;
-        \item using wordNet;
+        \item nouns, verbs, adjective, adverb;
+        \item using WordNet;
     \end{itemize}
-    \item Noun phrases;
+    \item noun phrases
     \begin{itemize}
         \item using Ltchunk;
     \end{itemize}
-    \item Verb phrases;
-    \item Punctuation letters count;
-    \item Length of email (number of sentences);
+    \item verb phrases;
+    \item punctuation letters count;
+    \item length of email (number of sentences)
     \begin{itemize}
         \item using Ltchunk;
     \end{itemize}
-    \item Dictionary;
+    \item dictionary
     \begin{itemize}
-        \item 2 dictionaries were made one for the most common words in single messages and the other for the most common words in root message.
+        \item 2 dictionaries were made one for the most common words in single 
+	      messages and the other for the most common words in root message.
     \end{itemize}
 \end{itemize}
 
 \paragraph{Conclusion}
 \begin{itemize}
-    \item High accuracy was achieved on root vs leaf (92\%) , root vs inner (87\%) and root vs single(79\%).
+    \item high accuracy was achieved on root vs leaf (92\%) , root vs inner (87\%) and root vs single(79\%).
 \end{itemize}
 
 
 %=================================================================================================
 
-\subsubsection{Using GNUsmail to Compare Data Stream Mining Methods for On-line Email}
+\subsubsection{Using GNUsmail to Compare Data Stream Mining Methods for On-line Email \cite{JOSE11}}
 \paragraph{Year} 2011
 
 \paragraph{Citations} 0
 
 \paragraph{Main Topic}
 \begin{itemize}
-    \item Introducing GNUsmail , an open source framework used for mail classification , focusing on online incremental learning;
-    \item proposing new techniques for testing other than holdout and cross-validation like prequential measure.
+    \item introducing GNUsmail, an open source framework used for mail 
+	  classification, focusing on online incremental learning;
+    \item proposing new techniques for testing other than holdout and 
+	  cross-validation like prequential measure.
 \end{itemize}
 
 \paragraph{Evaluation methods}
@@ -271,7 +311,8 @@ traditional bag of words representation.
 \paragraph{Dataset}
 \begin{itemize}
     \item Enron;
-    \item a layer was added to feed the learning algorithm the new emails one by one, simulating new incoming emails.
+    \item a layer was added to feed the learning algorithm the new emails one 
+	  by one, simulating new incoming emails.
 \end{itemize}
 
 \paragraph{Algorithms}
@@ -284,60 +325,64 @@ traditional bag of words representation.
 
 \paragraph{Tools}
 \begin{itemize}
-    \item GNUsmail;
-    \begin{itemize}
-        \item http://code.google.com/p/gnusmail/.
-    \end{itemize}
+    \item GNUsmail: http://code.google.com/p/gnusmail/.
 \end{itemize}
 
 \paragraph{Result}
 \begin{itemize}
-\item Improved GNUsmail by incorporating new different methods to evaluate data stream mining algorithms in the domain of email classification.
+  \item Improved GNUsmail by incorporating new different methods to evaluate 
+	data stream mining algorithms in the domain of email classification.
 \end{itemize}
 
 \paragraph{Future Work}
 \begin{itemize}
-\item Current online learning algorithm implementations have an important limitation that affects the learning process: learning attributes have to be fixed before beginning the induction of the algorithm. They need to know all the attributes, values and classes before the learning itself, since it is not possible to start using a new attribute in the middle of the lifetime of a learning model. Future methods should support online addition of new features
+  \item Current online learning algorithm implementations have an important 
+	limitation that affects the learning process: learning attributes have 
+	to be fixed before beginning the induction of the algorithm. They need 
+	to know all the attributes, values and classes before the learning itself, 
+	since it is not possible to start using a new attribute in the middle of the 
+	lifetime of a learning model. Future methods should support online addition of
+	new features
 \end{itemize}
 
 %=================================================================================================
 
-\subsubsection{E-Classifier: A Bi-Lingual Email Classification System}
+\subsubsection{E-Classifier: A Bi-Lingual Email Classification System \cite{NOUF08}}
 \paragraph{Year} 2008
 \paragraph{Citations} 0
 
 \paragraph{Problem}
 \begin{itemize}
-    \item classifying Arabic and English emails.
-    \item implementing an outlook add-in “e-classifier”,
+    \item classifying Arabic and English emails;
+    \item implementing an outlook add-in ``e-classifier''.
 \end{itemize}
 
 \paragraph{Related Work}
 \begin{itemize}
-    \item English Email Classifiers;
+    \item English Email Classifiers
     \begin{itemize}
-        \item PopFile;
+        \item PopFile
         \begin{itemize}
             \item http://popfile.sourceforge.net;
-            \item uses naive bayes algorithm only;
+            \item uses naive bayes algorithm only.
         \end{itemize}
-        \item SpamBayes;
+        \item SpamBayes
         \begin{itemize}
             \item http://spambayes.sourceforge.net;
-            \item Binary Classifier (Spam or not);
+            \item Binary Classifier (Spam or not).
         \end{itemize}
     \end{itemize}
-    \item Arabic Email Classifiers;
+    \item Arabic Email Classifiers
     \begin{itemize}
-    \item there are no Email classification work on arabic language, the related work are on arabic documents not emails
-El-Kourdiet.
+    \item there are no Email classification work on arabic language, the 
+	  related work are on arabic documents not emails El-Kourdiet.
     \end{itemize}
 \end{itemize}
 
 \paragraph{Dataset}
 \begin{itemize}
-    \item English : enron dataset;
-    \item Arabic;
+    \item English: enron dataset;
+    \item Arabic
     \begin{itemize}
         \item Translated documents that have been converted to emails;
         \item Documents obtained from http://www.comp.leeds.ac.uk/eric/latifa/research.html.
@@ -348,10 +393,10 @@ El-Kourdiet.
 \begin{itemize}
     \item English
     \begin{itemize}
-        \item removing stop words
-        \item removing punctuation marks
-        \item converting all the letters to lowercase
-        \item porter stemmer
+        \item removing stop words;
+        \item removing punctuation marks;
+        \item converting all the letters to lowercase;
+        \item porter stemmer;
     \end{itemize}
     \item Arabic
     \begin{itemize}
@@ -361,8 +406,8 @@ El-Kourdiet.
 
 \paragraph{Results}
 \begin{itemize}
-    \item 85 percent of English emails were classified correctly;
-    \item 60 percent of Arabic emails were classified correctly.
+    \item 85\% of English emails were classified correctly;
+    \item 60\% of Arabic emails were classified correctly.
 \end{itemize}
 
 \paragraph{Critique}
@@ -372,12 +417,14 @@ El-Kourdiet.
 
 %=================================================================================================
 
-\subsubsection{An Object Oriented Email Clustering Model Using Weighted Similarities between Emails Attributes}
+\subsubsection{An Object Oriented Email Clustering Model Using Weighted 
+	      Similarities between Emails Attributes \cite{NARESH10}}
 \paragraph{Year} 2010
 \paragraph{Citations}6
 \paragraph{Description}
 \begin{itemize}
-    \item Proposing a new Object Oriented Email Clustering Model to categorize mail message into groups.
+    \item Proposing a new Object Oriented Email Clustering Model to categorize 
+	  mail message into groups.
 \end{itemize}
 
 \paragraph{Algorithms}
@@ -402,40 +449,39 @@ El-Kourdiet.
 \paragraph{Dataset pre-processing}
 \begin{itemize}
     \item stemming;
-    \item parsing;
+    \item parsing
     \begin{itemize}
-        \item To extract email attribuites (subject , body , etc ..);
+        \item to extract email attribuites (subject, body, ...etc);
     \end{itemize}
-    \item Storing in an object oriented representation.
+    \item storing in an object oriented representation.
 \end{itemize}
 
 \paragraph{Tools/programming languages used}
 \begin{itemize}
     \item java;
-    \item Simmetric : used to calculate text similarities;
-    \item Weka (Waikato Environment for Knowledge Analysis) : used for stemming of emails.
+    \item Simmetric: used to calculate text similarities;
+    \item Weka (Waikato Environment for Knowledge Analysis): used for stemming of emails.
 \end{itemize}
 
 \paragraph{Future work}
 \begin{itemize}
-    \item Thread summarization;
-    \item Automatic email answering.
+    \item thread summarization;
+    \item automatic email answering.
 \end{itemize}
 
 \paragraph{Conclusion}
 \begin{itemize}
-    \item Email can be represented as an object with attribute like subject , body , etc.;
-    \item Clustering of emails can be implemented in an object oriented way.
+    \item email can be represented as an object with attribute like subject, body, ...etc;
+    \item clustering of emails can be implemented in an object oriented way.
 \end{itemize}
 
 
 %======================================================================================
 
-\subsubsection{Content Based Email Classification System by applying Conceptual Maps}
+\subsubsection{Content Based Email Classification System by applying Conceptual Maps \cite{BASKARAN09}}
 
 \paragraph{Year} 2009
-
-\paragraph{Citations}0
+\paragraph{Citations} 0
 
 \paragraph{Main Topic}
 \begin{itemize}
@@ -445,25 +491,19 @@ El-Kourdiet.
 
 \paragraph{Major steps of processing on subject and body fields}
 \begin{itemize}
-    \item word splitting.
-    \item word normalization (stemming).
-    \item detect abbreviation.
-    \item removing stop words.
-    \item word indexing.
-    \item identify noun-phrases by NLP techniques.
+    \item word splitting;
+    \item word normalization (stemming);
+    \item detect abbreviation;
+    \item removing stop words;
+    \item word indexing;
+    \item identify noun-phrases by NLP techniques;
     \item conversion of phrases into concepts.
 \end{itemize}
 
 \paragraph{Related Work}
 \begin{itemize}
-    \item C-Evolove.
+    \item C-Evolove;
     \item Titus.
-\end{itemize}
-
-
-\paragraph{Future Work}
-\begin{itemize}
-    \item not mentioned.
 \end{itemize}
 
 %=============================================================================================
@@ -475,8 +515,14 @@ El-Kourdiet.
 
 %=============================================================================================
 \subsection{Email Summarization}
-\subsubsection{Detection of question-answer pairs in email conversations (2004, 41 citations)}
-\subsubsection{Using Question-Answer Pairs in Extractive Summarization of Email Conversations}
+\subsubsection{Detection of question-answer pairs in email conversations \cite{LOKESH04}}
+
+%=============================================================================================
+
+\subsubsection{Using Question-Answer Pairs in Extractive Summarization of Email Conversations \cite{KATHLEEN07}}
+
+
+%=============================================================================================
 
 \section{Results}\label{results}
 In this section we describe the results.
@@ -484,7 +530,115 @@ In this section we describe the results.
 \section{Conclusions}\label{conclusions}
 We worked hard, and achieved very little.
 
-\bibliographystyle{abbrv}
-\bibliography{main}
+
+\begin{thebibliography}{99}
+\bibitem{RON04}
+  Ron Bekkerman,
+  Andrew McCallum,
+  Gary Huang,
+  \emph{Automatic Categorization of Email into Folders: Benchmark Experiments on Enron and SRI Corpora},
+  2004.
+
+\bibitem{ANI03}
+  Ani Nenkova,
+  Amit Bagga,
+  \emph{Email Classification for Contact Centers},
+  2003.
+
+\bibitem{JOSE11}
+  Jose M. Carmona-Cejudo,
+  Manuel Baena-Garcia,
+  Jose del Campo-Avila,
+  Rafael Morales-Bueno,
+  Joao Gama,
+  Albert Bifet,
+  \emph{Using GNUsmail to Compare Data Stream Mining Methods for On-line Email Classification},
+  2011.
+
+\bibitem{NOUF08}
+  Nouf Al Fe'ar,
+  Einas Al Turki,
+  Asma Al Zaid,
+  Mashael Al Duwais,
+  Mona Al Sheddi,
+  Nora Al khamees,
+  Nouf Al Drees,
+  \emph{E-Classifier: A Bi-Lingual Email Classification System},
+  2008.
+
+\bibitem{NARESH10}
+  Naresh Kumar Nagwani,
+  Ashok Bhansali,
+  \emph{An Object Oriented Email Clustering Model Using Weighted Similarities between Emails Attributes},
+  2010.
+
+
+\bibitem{BASKARAN09}
+  S. Baskaran,
+  \emph{Content Based Email Classification System by applying Conceptual Maps},
+  2009.
+
+\bibitem{CHAO08}
+  Chao Zeng,
+  Zhao Lu,
+  Junzhong Gu,
+  \emph{A new approach to Email classification using Concept Vector Space Model},
+  2009.
+
+\bibitem{BALAKUMAR08}
+  M.Balakumar,
+  V.Vaidehi,
+  \emph{Ontology based classification and categorization of email},
+  2008.
+
+\bibitem{MIN11}
+  Min-Feng Wang,
+  Sie-Long Jheng,
+  Meng-Feng Tsai,
+  Cheng-Hsien Tang,
+  \emph{Enterprise Email Classification Based on Social Network Features},
+  2011.
+
+\bibitem{MD07}
+  Md Rafiqul Islam,
+  Wanlei Zhou,
+  \emph{Email Categorization Using Multi-Stage Classification Technique},
+  2007.
+
+\bibitem{YEHUDA11}
+  Yehuda Koren,
+  Edo Liberty,
+  Yoelle Maarek,
+  Roman Sandler,
+  \emph{Automatically Tagging Email by Leveraging Other Users' Folders},
+  2011.
+
+\bibitem{WENQING05}
+  Wenqing Zhao,
+  Zili Zhang,
+  \emph{An Email Classification Model Based on Rough Set Theory},
+  2005.
+
+\bibitem{LOKESH04}
+  Lokesh Shrestha,
+  Kathleen McKeown,
+  \emph{Detection of question-answer pairs in email conversations},
+  2004.
+
+\bibitem{KATHLEEN07}
+  Kathleen McKeown,
+  Lokesh Shrestha,
+  Owen Rambow,
+  \emph{Using Question-Answer Pairs in Extractive Summarization of Email Conversations},
+  2007.
+
+\bibitem{GIUSEPPE07}
+  Giuseppe Carenini,
+  Raymond T. Ng,
+  Xiaodong Zhou,
+  \emph{Summarizing Email Conversations with Clue Words},
+  2007.
+\end{thebibliography}
+
 
 \end{document}
