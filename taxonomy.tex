@@ -1,0 +1,312 @@
+\title{Taxonomy for Email Classification and Summarization Techniques}
+\author{
+        Ahmed El Sharkasy 
+        \and
+        Ahmed Kotb
+	\and
+	Amr Sharaf
+	\and
+	Mohammad Kotb
+	\and
+	Moustafa Mahmoud
+}
+\date{\today}
+
+\documentclass[12pt]{article}
+\usepackage{multirow}
+
+
+\begin{document}
+\maketitle
+\newpage
+\tableofcontents
+\newpage
+
+\section{Abstract}
+In this document we present a survey and taxonomy on recent research topics related to email classification and summarization. This document summarizes and organizes recent research results in the novel way that integrates and adds understanding to work in the field of email classification and summarization. It emphasizes the classification of the existing literature, developing a perspective on the area, and evaluating different trends.
+
+\paragraph{Keywords}
+Email, Classification, Summarization, Machine Learning.
+
+\section{Introduction}
+Email has been an efficient and popular communication mechanism as the number of Internet users increases. Therefore, email management has become an important and growing problem for individuals and organizations because it is prone to misuse. One of the problems that are most paramount is disordered email message, congested and unstructured emails in mail boxes. It may be very hard to find archived email message, search for previous emails with specified contents or features when the mails are not well structured and organized.
+
+Many machine learning approaches have been applied in this field, the most State-of-the-Art algorithms in email classification include: support vector machines, neural network, naïve bayes classifiers and entropy-based approach. 
+
+Email summarization is another important and challenging problem. We can think of automatic summarization as a type of information compression. To achieve such compression, better modelling and understanding of document structures and internal relations is required. 
+
+In this document we present a survey and taxonomy on recent research topics related to email classification and summarization.
+
+\section{Email Classification Taxonomy}
+The following table classifies some recent research papers in the field of email classification according to the different learning algorithms used in different papers
+
+
+\begin{tabular}{|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|}
+\hline
+\multicolumn{6}{|c|}{Learning Algorithm} \\
+\hline
+SVM & Naïve Bayes & Neural Networks & Max. Entropy / Winnow & Nnge / Hoeffing Trees & Graph Mining \\ \hline
+An Innovative Analyser for email classification Based on Grey List Analysis &
+Email Classification with Co-training &
+Email Classification: Solution with Back Propagation Technique & 
+Automatic Categorization of Emails into Folders &
+Using GNUsmail to compare Data Stream Mining Methods for On-line Email Classification &
+A graph Based Approach for Multi-Folder Email Classification \\ \hline
+
+Email Classification with Co-training &
+Automatic Categorization of Emails into Folders &
+Email Classification Using Semantic Feature Space & 
+&
+&
+ \\ \hline
+
+Automatic Categorization of Emails into Folders &
+&
+& 
+&
+&
+
+ \\
+\hline
+\end{tabular}
+
+\section{Email Summarization Taxonomy}
+
+\section{Papers Summary}
+\subsection{Email Classification}
+
+\subsubsection{Automatic Categorization of Email into Folders}
+
+\paragraph{Date} 2004
+\paragraph{Citations} 112
+\paragraph{Introduction}
+\begin{itemize}
+  \item users get alot of emails this days, not just spam but a large number of legitmate emails also that they need to process in a short time;
+  \item the paper shows the results of an extensive benchmark on two large corpora (enron,sri) of 4 classification algorithms;
+  \item the paper shows an enhancement to the exponential gradient method (winnow).
+\end{itemize}
+
+\paragraph{Related Work}
+\begin{itemize}
+  \item Clark and Niblet 1989: proposed a rule inductive algorithm CN2 and showed that it can outperform KNN;
+  \item Cohen 1996: proposed the RIPPER classifier and showed that that it can outperfrom an tfidf classifier;
+  \item Provost 1999: showed that Naive bayes can outperform RIPPER;
+  \item Remmie 2000: achived a very high accuracy by classifying mails to 3 predefined folders ;
+  \item Kiritchenko and Malwin 2001: showed that SVM can outperfom Naive Bayes.
+\end{itemize}
+
+
+\paragraph{Algorithms Benchmarked}
+\begin{itemize}
+  \item Maximum Entropy;
+  \item Naive Bayes;
+  \item SVM;
+  \item Winnow (enhanced version).
+\end{itemize}
+
+\paragraph{Challenges in mail classification}
+\begin{itemize}
+  \item Email users often create folders and let it fall out of use (small no. of training data per folder);
+  \item folders don’t necessarily correspond to simple semantic topics (unfinished todos , project groups, certain recipient);
+  \item differ drastically from one user to another;
+  \item Email arrives in a stream over time which causes more difficulties , for example the topic of main folder can drift over time.
+\end{itemize}
+
+
+\paragraph{Data set pre-processing}
+removing non topical folders (Inbox , sent , trash , … )
+removing small folders ( folders that has a small number of emails)
+
+\paragraph{Training/test set splits}
+The paper shows a new way to split training data into training set and test sit , the new method takes time factor into considerations ..
+it works as follows
+sorting emails by time
+train the classifier for the first N emails
+then test it on the following N emails
+Train the classifier for the first 2N emails
+then test it for the following N emails
+and so on …
+
+\paragraph{Features Extraction}
+traditional bag of words representation.
+
+\paragraph{Datasets}
+Enron : http://www.cs.cmu.edu/~enron/
+150 users with more than 500,000 Emails
+Applied to the following 7 employees folder only (the largest 7)
+beck-s,farmer-d, kaminski-v, kitchen-l, lokay-m, sanders-r and williams-w3.
+Removed the non topical folders like
+“all documents”, “calendar”, “contacts”, “deleted items”, “discussion threads”, “inbox”, “notes inbox”, “sent”, “sent items” and “ sent mail”.
+Flatten all the folder hierarchies.
+Removed folders with less than 3 messages
+Removed the X-Folder field from email messages. (The X-Folder field contains the class label)
+SRI : http://www.ai.sri.com/project/CALO
+Applied to the following 7 folders only : acheyer, bmark, disrael, mgervasio, mgondek, rperrault ,and vchaudri
+Removed the non topical folders( inbox , draft, sent , trash ).
+Flatten all the folder hierarchies.
+Removed folders with less than 3 messages.
+
+\paragraph{Critique}
+They didn’t use Stemming in their preprocessing to the dataset
+not including precision , recall and f1 score for accuracy measures.
+
+\paragraph{Conclusion}
+Naive Bayes is inferior to other algorithms.
+SVM achieved the highest accuracies in most of the tests.
+
+\paragraph{Future Work}
+Different sections of each email can be treated differently. For example, the system could create distinct features for words appearing in the header, body, signature, attachments, etc
+Named entities may be highly relevant features. It would be desirable to incorporate a named entity extractor (such as MinorThird3 , see, e.g., Cohen and Sarawagi (2004)) into the foldering system.
+
+
+
+
+
+\subsubsection{Email Classifications For Contact Centers}
+\paragraph{Date} 2003
+\paragraph{Citations} 14
+\paragraph{Main Topic}
+Proposing an automatic system to classify mail message for contact centers
+mails are categorized into 2 classes
+Single messages : messages that don’t require a response
+Root messages : messages that require immediate response
+those message can be sub divided into 3 classes
+Root : the start of the communication (contains a problem or a question)
+inner : communication on a certain problem
+leaf : marks the end of this interaction (eg. the problem was solved)
+\paragraph{Tools used}
+Rainbow : an implementation for naive bayess algorithm
+svmlight : an implementation for SVM algorithm
+wordNet : used for parts of speach taging
+Ltchunk : used to identify noun phrases and count number of sentences in email.
+
+\paragraph{Dataset}
+Pine-info discussion list web archive
+http://www.washington.edu/pine/pine-info
+
+\paragraph{Pre processing}
+removing reply blocks (blocks from previous emails in the current mail)
+removing signature blocks
+
+\paragraph{Features (for SVM algorithm)}
+Non-infected words
+nouns,verbs,adjective,adverb
+using wordNet
+Noun phrases
+using Ltchunk
+Verb phrases
+Punctuation letters count
+assuming that single message will have different punctuation than letters count
+Length of email (number of sentences)
+using Ltchunk
+Dictionary
+2 dictionaries were made one for the most common words in single messages and the other for the most common words in root message
+
+\paragraph{Conclusion}
+High accuracy was achieved on root vs leaf (92%) , root vs inner (87%) and root vs single(79%)
+
+
+
+\subsubsection{Using GNUsmail to Compare Data Stream Mining Methods for On-line Email}
+\paragraph{Date} 2011
+
+\paragraph{Citations} 0
+
+\paragraph{Main Topic}
+Introducing GNUsmail , an open source framework used for mail classification , focusing on online incremental learning.
+proposing new techniques for testing other than holdout and cross-validation like prequential measure.
+
+\paragraph{Evaluation methods}
+prequential measure.
+sliding and fading windows.
+McNemar test.
+
+\paragraph{Dataset}
+Enron
+a layer was added to feed the learning algorithm the new emails one by one, simulating new incoming emails.
+Algorithms:
+OzaBag over NNge, using DDM for concept drift detection.
+NNge.
+Hoeffding Trees.
+Majority class.
+\paragraph{Tools}
+GNUsmail
+http://code.google.com/p/gnusmail/
+
+\paragraph{Result}
+Improved GNUsmail by incorporating new different methods to evaluate data stream mining algorithms in the domain of email classification.
+
+\paragraph{Future Work}
+Current online learning algorithm implementations have an important limitation that affects the learning process: learning attributes have to be fixed before beginning the induction of the algorithm. They need to know all the attributes, values and classes before the learning itself, since it is not possible to start using a new attribute in the middle of the lifetime of a learning model. Future methods should support online addition of new features
+
+
+
+
+\subsubsection{E-Classifier: A Bi-Lingual Email Classification System}
+\paragraph{Date} 2008
+\paragraph{Citations} 0
+
+\paragraph{Problem}
+classifying Arabic and English emails.
+implementing an outlook add-in “e-classifier”,
+
+\paragraph{Related Work}
+English Email Classifiers
+PopFile:
+http://popfile.sourceforge.net
+uses naive bayes algorithm only.
+SpamBayes
+http://spambayes.sourceforge.net
+Binary Classifier (Spam or not)
+Arabic Email Classifiers
+there are no Email classification work on arabic language, the related work are on arabic documents not emails
+El-Kourdiet
+
+\paragraph{Dataset}
+English : enron dataset
+Arabic :
+translated documents that have been converted to emails
+document obtained from
+http://www.comp.leeds.ac.uk/eric/latifa/research.html
+
+\paragraph{pre-processing}
+English
+removing stop words
+removing punctuation marks
+converting all the letters to lowercase
+porter stemmer
+Arabic
+no root extraction technique was used due to the lack of non commercial product.
+
+\paragraph{Results}
+85 percent of English emails were classified correctly.
+60 percent of English emails were classified correctly.
+
+\paragraph{Critique}
+used only overall accuracy measure which might not good indicator in case of skewed data.
+
+
+
+
+\subsubsection{An Object Oriented Email Clustering Model Using Weighted Similarities between Emails Attributes}
+
+
+
+
+\subsubsection{Content Based Email Classification System by applying Conceptual Maps}
+\subsubsection{A new approach to Email classification using Concept Vector Space Model}
+
+\subsection{Email Summarization}
+\subsubsection{Detection of question-answer pairs in email conversations (2004, 41 citations)}
+\subsubsection{Using Question-Answer Pairs in Extractive Summarization of Email Conversations}
+
+\section{Results}\label{results}
+In this section we describe the results.
+
+\section{Conclusions}\label{conclusions}
+We worked hard, and achieved very little.
+
+\bibliographystyle{abbrv}
+\bibliography{main}
+
+\end{document}
