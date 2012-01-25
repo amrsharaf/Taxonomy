@@ -3,12 +3,12 @@
         Ahmed El Sharkasy 
         \and
         Ahmed Kotb
-	\and
-	Amr Sharaf
-	\and
-	Mohammad Kotb
-	\and
-	Moustafa Mahmoud
+        \and
+        Amr Sharaf
+        \and
+        Mohammad Kotb
+        \and
+        Moustafa Mahmoud
 }
 \date{\today}
 
@@ -114,49 +114,65 @@ Automatic Categorization of Emails into Folders &
 
 
 \paragraph{Data set pre-processing}
-removing non topical folders (Inbox , sent , trash , … )
-removing small folders ( folders that has a small number of emails)
+\begin{itemize}
+    \item removing non topical folders (Inbox , sent , trash , … );
+    \item removing small folders ( folders that has a small number of emails).
+\end{itemize}
 
 \paragraph{Training/test set splits}
-The paper shows a new way to split training data into training set and test sit , the new method takes time factor into considerations ..
-it works as follows
-sorting emails by time
-train the classifier for the first N emails
-then test it on the following N emails
-Train the classifier for the first 2N emails
-then test it for the following N emails
-and so on …
+\begin{itemize}
+    \item The paper shows a new way to split training data into training set and test sit , the new method takes time factor into considerations;
+    \item it works as follows;
+    \begin{itemize}
+        \item sorting emails by time;
+        \item Train the classifier for the first N emails;
+        \item Test it on the following N emails;
+        \item Train the classifier for the first 2N emails;
+        \item then test it for the following N emails.
+        \item and so on.
+    \end{itemize}
+\end{itemize}
 
 \paragraph{Features Extraction}
 traditional bag of words representation.
 
 \paragraph{Datasets}
-Enron : http://www.cs.cmu.edu/~enron/
-150 users with more than 500,000 Emails
-Applied to the following 7 employees folder only (the largest 7)
-beck-s,farmer-d, kaminski-v, kitchen-l, lokay-m, sanders-r and williams-w3.
-Removed the non topical folders like
-“all documents”, “calendar”, “contacts”, “deleted items”, “discussion threads”, “inbox”, “notes inbox”, “sent”, “sent items” and “ sent mail”.
-Flatten all the folder hierarchies.
-Removed folders with less than 3 messages
-Removed the X-Folder field from email messages. (The X-Folder field contains the class label)
-SRI : http://www.ai.sri.com/project/CALO
-Applied to the following 7 folders only : acheyer, bmark, disrael, mgervasio, mgondek, rperrault ,and vchaudri
-Removed the non topical folders( inbox , draft, sent , trash ).
-Flatten all the folder hierarchies.
-Removed folders with less than 3 messages.
+    \begin{itemize}
+    \item Enron : http://www.cs.cmu.edu/~enron/
+    \begin{itemize}
+        \item 150 users with more than 500,000 Emails;
+        \item Applied to the following 7 employees folder only (the largest 7 folders : beck-s,farmer-d, kaminski-v, kitchen-l, lokay-m, sanders-r and williams-w3);
+        \item Removed the non topical folders like “all documents”, “calendar”, “contacts”, “deleted items”, “discussion threads”, “inbox”, “notes inbox”, “sent”, “sent items” and “ sent mail”;
+        \item Flatten all the folder hierarchies;
+        \item Removed folders with less than 3 messages;
+        \item Removed the X-Folder field from email messages. (The X-Folder field contains the class label).
+    \end{itemize}
+    \item SRI : http://www.ai.sri.com/project/CALO
+    \begin{itemize}
+        \item Applied to the following 7 folders only : acheyer, bmark, disrael, mgervasio, mgondek, rperrault ,and vchaudri;
+        \item Removed the non topical folders( inbox , draft, sent , trash );
+        \item Flatten all the folder hierarchies;
+        \item Removed folders with less than 3 messages.
+    \end{itemize}
+\end{itemize}
 
 \paragraph{Critique}
-They didn’t use Stemming in their preprocessing to the dataset
-not including precision , recall and f1 score for accuracy measures.
+\begin{itemize}
+    \item They didn’t use Stemming in their preprocessing to the dataset;
+    \item not including precision , recall and f1 score for accuracy measures.
+\end{itemize}
 
 \paragraph{Conclusion}
-Naive Bayes is inferior to other algorithms.
-SVM achieved the highest accuracies in most of the tests.
+\begin{itemize}
+    \item Naive Bayes is inferior to other algorithms;
+    \item SVM achieved the highest accuracies in most of the tests.
+\end{itemize}
 
 \paragraph{Future Work}
-Different sections of each email can be treated differently. For example, the system could create distinct features for words appearing in the header, body, signature, attachments, etc
-Named entities may be highly relevant features. It would be desirable to incorporate a named entity extractor (such as MinorThird3 , see, e.g., Cohen and Sarawagi (2004)) into the foldering system.
+\begin{itemize}
+    \item Different sections of each email can be treated differently. For example, the system could create distinct features for words appearing in the header, body, signature, attachments, etc.;
+    \item Named entities may be highly relevant features. It would be desirable to incorporate a named entity extractor (such as MinorThird3 , see, e.g., Cohen and Sarawagi (2004)) into the foldering system.
+\end{itemize}
 
 
 
