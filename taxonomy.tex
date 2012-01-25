@@ -299,54 +299,77 @@ traditional bag of words representation.
 \item Current online learning algorithm implementations have an important limitation that affects the learning process: learning attributes have to be fixed before beginning the induction of the algorithm. They need to know all the attributes, values and classes before the learning itself, since it is not possible to start using a new attribute in the middle of the lifetime of a learning model. Future methods should support online addition of new features
 \end{itemize}
 
-
-
+%=================================================================================================
 
 \subsubsection{E-Classifier: A Bi-Lingual Email Classification System}
 \paragraph{Date} 2008
 \paragraph{Citations} 0
 
 \paragraph{Problem}
-classifying Arabic and English emails.
-implementing an outlook add-in “e-classifier”,
+\begin{itemize}
+    \item classifying Arabic and English emails.
+    \item implementing an outlook add-in “e-classifier”,
+\end{itemize}
 
 \paragraph{Related Work}
-English Email Classifiers
-PopFile:
-http://popfile.sourceforge.net
-uses naive bayes algorithm only.
-SpamBayes
-http://spambayes.sourceforge.net
-Binary Classifier (Spam or not)
-Arabic Email Classifiers
-there are no Email classification work on arabic language, the related work are on arabic documents not emails
-El-Kourdiet
+\begin{itemize}
+    \item English Email Classifiers;
+    \begin{itemize}
+        \item PopFile;
+        \begin{itemize}
+            \item http://popfile.sourceforge.net;
+            \item uses naive bayes algorithm only;
+        \end{itemize}
+        \item SpamBayes;
+        \begin{itemize}
+            \item http://spambayes.sourceforge.net;
+            \item Binary Classifier (Spam or not);
+        \end{itemize}
+    \end{itemize}
+    \item Arabic Email Classifiers;
+    \begin{itemize}
+    \item there are no Email classification work on arabic language, the related work are on arabic documents not emails
+El-Kourdiet.
+    \end{itemize}
+\end{itemize}
 
 \paragraph{Dataset}
-English : enron dataset
-Arabic :
-translated documents that have been converted to emails
-document obtained from
-http://www.comp.leeds.ac.uk/eric/latifa/research.html
+\begin{itemize}
+    \item English : enron dataset;
+    \item Arabic;
+    \begin{itemize}
+        \item Translated documents that have been converted to emails;
+        \item Documents obtained from http://www.comp.leeds.ac.uk/eric/latifa/research.html.
+    \end{itemize}
+\end{itemize}
 
 \paragraph{pre-processing}
-English
-removing stop words
-removing punctuation marks
-converting all the letters to lowercase
-porter stemmer
-Arabic
-no root extraction technique was used due to the lack of non commercial product.
+\begin{itemize}
+    \item English
+    \begin{itemize}
+        \item removing stop words
+        \item removing punctuation marks
+        \item converting all the letters to lowercase
+        \item porter stemmer
+    \end{itemize}
+    \item Arabic
+    \begin{itemize}
+        \item no root extraction technique was used due to the lack of non commercial product.
+    \end{itemize}
+\end{itemize}
 
 \paragraph{Results}
-85 percent of English emails were classified correctly.
-60 percent of English emails were classified correctly.
+\begin{itemize}
+    \item 85 percent of English emails were classified correctly;
+    \item 60 percent of Arabic emails were classified correctly.
+\end{itemize}
 
 \paragraph{Critique}
-used only overall accuracy measure which might not good indicator in case of skewed data.
+\begin{itemize}
+    \item used only overall accuracy measure which might not good indicator in case of skewed data.
+\end{itemize}
 
-
-
+%=================================================================================================
 
 \subsubsection{An Object Oriented Email Clustering Model Using Weighted Similarities between Emails Attributes}
 \paragraph{Date} 2010
