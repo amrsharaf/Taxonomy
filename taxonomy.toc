@@ -47,10 +47,19 @@
 \contentsline {paragraph}{Results}{9}
 \contentsline {paragraph}{Critique}{9}
 \contentsline {subsubsection}{\numberline {5.1.5}An Object Oriented Email Clustering Model Using Weighted Similarities between Emails Attributes}{10}
-\contentsline {subsubsection}{\numberline {5.1.6}Content Based Email Classification System by applying Conceptual Maps}{10}
-\contentsline {subsubsection}{\numberline {5.1.7}A new approach to Email classification using Concept Vector Space Model}{10}
-\contentsline {subsection}{\numberline {5.2}Email Summarization}{10}
-\contentsline {subsubsection}{\numberline {5.2.1}Detection of question-answer pairs in email conversations (2004, 41 citations)}{10}
-\contentsline {subsubsection}{\numberline {5.2.2}Using Question-Answer Pairs in Extractive Summarization of Email Conversations}{10}
-\contentsline {section}{\numberline {6}Results}{10}
-\contentsline {section}{\numberline {7}Conclusions}{10}
+\contentsline {paragraph}{Date}{10}
+\contentsline {paragraph}{Citations}{10}
+\contentsline {paragraph}{Description}{10}
+\contentsline {paragraph}{Algorithms}{10}
+\contentsline {paragraph}{Datasets}{10}
+\contentsline {paragraph}{Dataset pre-processing}{10}
+\contentsline {paragraph}{Tools/programming languages used}{10}
+\contentsline {paragraph}{Future work}{10}
+\contentsline {paragraph}{Conclusion}{10}
+\contentsline {subsubsection}{\numberline {5.1.6}Content Based Email Classification System by applying Conceptual Maps}{11}
+\contentsline {subsubsection}{\numberline {5.1.7}A new approach to Email classification using Concept Vector Space Model}{11}
+\contentsline {subsection}{\numberline {5.2}Email Summarization}{11}
+\contentsline {subsubsection}{\numberline {5.2.1}Detection of question-answer pairs in email conversations (2004, 41 citations)}{11}
+\contentsline {subsubsection}{\numberline {5.2.2}Using Question-Answer Pairs in Extractive Summarization of Email Conversations}{11}
+\contentsline {section}{\numberline {6}Results}{11}
+\contentsline {section}{\numberline {7}Conclusions}{11}
