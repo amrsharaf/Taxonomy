@@ -1,33 +1,33 @@
-\contentsline {section}{\numberline {1}Abstract}{3}
-\contentsline {paragraph}{Keywords}{3}
-\contentsline {section}{\numberline {2}Introduction}{3}
-\contentsline {section}{\numberline {3}Email Classification Taxonomy}{3}
-\contentsline {section}{\numberline {4}Email Summarization Taxonomy}{4}
-\contentsline {section}{\numberline {5}Papers Summary}{4}
-\contentsline {subsection}{\numberline {5.1}Email Classification}{4}
-\contentsline {subsubsection}{\numberline {5.1.1}Automatic Categorization of Email into Folders \cite {RON04}}{4}
-\contentsline {paragraph}{Year}{4}
-\contentsline {paragraph}{Citations}{5}
-\contentsline {paragraph}{Introduction}{5}
-\contentsline {paragraph}{Related Work}{5}
-\contentsline {paragraph}{Algorithms Benchmarked}{5}
+\contentsline {section}{\numberline {1}Abstract}{4}
+\contentsline {paragraph}{Keywords}{4}
+\contentsline {section}{\numberline {2}Introduction}{4}
+\contentsline {section}{\numberline {3}Email Classification Taxonomy}{4}
+\contentsline {section}{\numberline {4}Email Summarization Taxonomy}{5}
+\contentsline {section}{\numberline {5}Papers Summary}{5}
+\contentsline {subsection}{\numberline {5.1}Email Classification}{5}
+\contentsline {subsubsection}{\numberline {5.1.1}Automatic Categorization of Email into Folders \cite {RON04}}{5}
+\contentsline {paragraph}{Year}{5}
+\contentsline {paragraph}{Citations}{6}
+\contentsline {paragraph}{Introduction}{6}
+\contentsline {paragraph}{Related Work}{6}
+\contentsline {paragraph}{Algorithms Benchmarked}{6}
 \contentsline {paragraph}{Challenges in mail classification}{6}
-\contentsline {paragraph}{Data set pre-processing}{6}
-\contentsline {paragraph}{Training/test set splits}{6}
-\contentsline {paragraph}{Features Extraction}{6}
+\contentsline {paragraph}{Data set pre-processing}{7}
+\contentsline {paragraph}{Training/test set splits}{7}
+\contentsline {paragraph}{Features Extraction}{7}
 \contentsline {paragraph}{Datasets}{7}
-\contentsline {paragraph}{Critique}{7}
-\contentsline {paragraph}{Conclusion}{7}
+\contentsline {paragraph}{Critique}{8}
+\contentsline {paragraph}{Conclusion}{8}
 \contentsline {paragraph}{Future Work}{8}
 \contentsline {subsubsection}{\numberline {5.1.2}Email Classifications For Contact Centers \cite {ANI03}}{8}
 \contentsline {paragraph}{Year}{8}
 \contentsline {paragraph}{Citations}{8}
 \contentsline {paragraph}{Main Topic}{8}
-\contentsline {paragraph}{Tools used}{8}
+\contentsline {paragraph}{Tools used}{9}
 \contentsline {paragraph}{Dataset}{9}
 \contentsline {paragraph}{Pre-processing}{9}
 \contentsline {paragraph}{Features (for SVM algorithm)}{9}
-\contentsline {paragraph}{Conclusion}{9}
+\contentsline {paragraph}{Conclusion}{10}
 \contentsline {subsubsection}{\numberline {5.1.3}Using GNUsmail to Compare Data Stream Mining Methods for On-line Email \cite {JOSE11}}{10}
 \contentsline {paragraph}{Year}{10}
 \contentsline {paragraph}{Citations}{10}
@@ -47,25 +47,88 @@
 \contentsline {paragraph}{pre-processing}{12}
 \contentsline {paragraph}{Results}{12}
 \contentsline {paragraph}{Critique}{12}
-\contentsline {subsubsection}{\numberline {5.1.5}An Object Oriented Email Clustering Model Using Weighted Similarities between Emails Attributes \cite {NARESH10}}{13}
-\contentsline {paragraph}{Year}{13}
+\contentsline {subsubsection}{\numberline {5.1.5}An Object Oriented Email Clustering Model Using Weighted Similarities between Emails Attributes \cite {NARESH10}}{12}
+\contentsline {paragraph}{Year}{12}
 \contentsline {paragraph}{Citations}{13}
 \contentsline {paragraph}{Description}{13}
 \contentsline {paragraph}{Algorithms}{13}
 \contentsline {paragraph}{Datasets}{13}
 \contentsline {paragraph}{Dataset pre-processing}{13}
-\contentsline {paragraph}{Tools/programming languages used}{14}
+\contentsline {paragraph}{Tools/programming languages used}{13}
 \contentsline {paragraph}{Future work}{14}
 \contentsline {paragraph}{Conclusion}{14}
 \contentsline {subsubsection}{\numberline {5.1.6}Content Based Email Classification System by applying Conceptual Maps \cite {BASKARAN09}}{14}
 \contentsline {paragraph}{Year}{14}
 \contentsline {paragraph}{Citations}{14}
 \contentsline {paragraph}{Main Topic}{14}
-\contentsline {paragraph}{Major steps of processing on subject and body fields}{15}
-\contentsline {paragraph}{Related Work}{15}
-\contentsline {subsubsection}{\numberline {5.1.7}A new approach to Email classification using Concept Vector Space Model}{15}
-\contentsline {subsection}{\numberline {5.2}Email Summarization}{15}
-\contentsline {subsubsection}{\numberline {5.2.1}Detection of question-answer pairs in email conversations \cite {LOKESH04}}{15}
-\contentsline {subsubsection}{\numberline {5.2.2}Using Question-Answer Pairs in Extractive Summarization of Email Conversations \cite {KATHLEEN07}}{15}
-\contentsline {section}{\numberline {6}Results}{15}
-\contentsline {section}{\numberline {7}Conclusions}{15}
+\contentsline {paragraph}{Major steps of processing on subject and body fields}{14}
+\contentsline {paragraph}{Related Work}{14}
+\contentsline {subsubsection}{\numberline {5.1.7}A new approach to Email classification using Concept Vector Space Model \cite {CHAO08}}{15}
+\contentsline {paragraph}{Year}{15}
+\contentsline {paragraph}{Citations}{15}
+\contentsline {paragraph}{Algorithms}{15}
+\contentsline {paragraph}{Dataset}{15}
+\contentsline {paragraph}{Results}{15}
+\contentsline {paragraph}{Future work}{16}
+\contentsline {subsubsection}{\numberline {5.1.8}Ontology based classification and categorization of email \cite {BALAKUMAR08}}{16}
+\contentsline {paragraph}{Year}{16}
+\contentsline {paragraph}{Citations}{16}
+\contentsline {paragraph}{Problem}{16}
+\contentsline {paragraph}{Algorithms}{16}
+\contentsline {paragraph}{Results}{17}
+\contentsline {paragraph}{Conclusion}{17}
+\contentsline {subsubsection}{\numberline {5.1.9}Enterprise Email Classification Based on Social Network Features \cite {MIN11}}{17}
+\contentsline {paragraph}{Year}{17}
+\contentsline {paragraph}{Citations}{17}
+\contentsline {paragraph}{Problem}{17}
+\contentsline {paragraph}{Algorithms}{17}
+\contentsline {paragraph}{Results}{17}
+\contentsline {paragraph}{Related Work}{18}
+\contentsline {paragraph}{Future work}{18}
+\contentsline {subsubsection}{\numberline {5.1.10}Email Categorization Using Multi-Stage Classification Technique \cite {MD07}}{18}
+\contentsline {paragraph}{Year}{18}
+\contentsline {paragraph}{Citations}{18}
+\contentsline {paragraph}{Problem}{18}
+\contentsline {paragraph}{Algorithms}{18}
+\contentsline {paragraph}{Results}{18}
+\contentsline {paragraph}{Data sets}{18}
+\contentsline {paragraph}{Future work}{19}
+\contentsline {subsubsection}{\numberline {5.1.11}Automatically tagging email by leveraging other users folders \cite {YEHUDA11}}{19}
+\contentsline {paragraph}{Year}{19}
+\contentsline {paragraph}{Citations}{19}
+\contentsline {paragraph}{Problem}{19}
+\contentsline {paragraph}{Algorithms}{19}
+\contentsline {paragraph}{Data sets}{19}
+\contentsline {paragraph}{Conclusion}{19}
+\contentsline {paragraph}{Future work}{20}
+\contentsline {subsubsection}{\numberline {5.1.12}An Email Classification Model Based on Rough Set Theory \cite {WENQING05}}{20}
+\contentsline {paragraph}{Year}{20}
+\contentsline {paragraph}{Citations}{20}
+\contentsline {paragraph}{Problem}{20}
+\contentsline {paragraph}{Related work}{20}
+\contentsline {paragraph}{Data sets}{20}
+\contentsline {paragraph}{Results}{20}
+\contentsline {paragraph}{Conclusion}{20}
+\contentsline {subsection}{\numberline {5.2}Email Summarization}{21}
+\contentsline {subsubsection}{\numberline {5.2.1}Detection of question-answer pairs in email conversations \cite {LOKESH04}}{21}
+\contentsline {paragraph}{Year}{21}
+\contentsline {paragraph}{Citations}{21}
+\contentsline {paragraph}{Problem}{21}
+\contentsline {paragraph}{Conclusion}{21}
+\contentsline {subsubsection}{\numberline {5.2.2}Using Question-Answer Pairs in Extractive Summarization of Email Conversations \cite {KATHLEEN07}}{21}
+\contentsline {paragraph}{Year}{21}
+\contentsline {paragraph}{Citations}{21}
+\contentsline {paragraph}{Problem}{22}
+\contentsline {paragraph}{Algorithms}{22}
+\contentsline {paragraph}{Data sets}{23}
+\contentsline {subsubsection}{\numberline {5.2.3}Summarizing email conversations with clue words \cite {GIUSEPPE07}}{23}
+\contentsline {paragraph}{Year}{23}
+\contentsline {paragraph}{Citations}{23}
+\contentsline {paragraph}{Problem}{23}
+\contentsline {paragraph}{Related Work}{23}
+\contentsline {paragraph}{Algorithms}{23}
+\contentsline {paragraph}{Dataset}{23}
+\contentsline {paragraph}{Conclusion}{24}
+\contentsline {paragraph}{Future Work}{24}
+\contentsline {section}{\numberline {6}Results}{24}
+\contentsline {section}{\numberline {7}Conclusions}{24}

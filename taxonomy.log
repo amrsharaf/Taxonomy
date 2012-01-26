@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.5)  26 JAN 2012 00:50
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.5)  26 JAN 2012 03:04
 entering extended mode
  %&-line parsing enabled.
 **taxonomy.tex
@@ -28,22 +28,22 @@ File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 (./taxonomy.aux)
 \openout1 = `taxonomy.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 20.
+(Font)              <14.4> on input line 24.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 20.
+(Font)              <7> on input line 24.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
@@ -65,395 +65,421 @@ Overfull \hbox (27.6568pt too wide) in paragraph at lines 50--50
 ighted 
  []
 
-)
+
+Overfull \hbox (6.03618pt too wide) in paragraph at lines 73--73
+ [][] []\OT1/cmr/m/n/12 Ontology based clas-si-fi-ca-tion and cat-e-go-riza-tio
+n of email 
+ []
+
+[2])
 \tf@toc=\write3
 \openout3 = `taxonomy.toc'.
 
- [2]
+ [3]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¯ in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¯ in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
 []\OT1/cmr/m/n/12 Nave
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
 []\OT1/cmr/m/n/12 Neural
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
 \OT1/cmr/m/n/12 tropy /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
 []\OT1/cmr/m/n/12 Nnge /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
 \OT1/cmr/m/n/12 Ho-eff-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
 []\OT1/cmr/m/n/12 Graph
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
+Underfull \hbox (badness 10000) in paragraph at lines 71--71
 []\OT1/cmr/m/n/12 An In-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
+Underfull \hbox (badness 10000) in paragraph at lines 71--71
 \OT1/cmr/m/n/12 no-va-tive
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
+Underfull \hbox (badness 10000) in paragraph at lines 71--71
 \OT1/cmr/m/n/12 Anal-yser
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
+Underfull \hbox (badness 10000) in paragraph at lines 71--71
 \OT1/cmr/m/n/12 for email
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
+Underfull \hbox (badness 10000) in paragraph at lines 71--71
 \OT1/cmr/m/n/12 clas-si-fi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
+Underfull \hbox (badness 10000) in paragraph at lines 71--71
 \OT1/cmr/m/n/12 ca-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
+Underfull \hbox (badness 10000) in paragraph at lines 71--71
 \OT1/cmr/m/n/12 Based on
  []
 
 
-Underfull \hbox (badness 6725) in paragraph at lines 67--67
+Underfull \hbox (badness 6725) in paragraph at lines 71--71
 \OT1/cmr/m/n/12 Grey List
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--68
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
 []\OT1/cmr/m/n/12 Email
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--68
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
 \OT1/cmr/m/n/12 Clas-si-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--68
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
 \OT1/cmr/m/n/12 fi-ca-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--68
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
 \OT1/cmr/m/n/12 with Co-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--69
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
 []\OT1/cmr/m/n/12 Email
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--69
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
 \OT1/cmr/m/n/12 Clas-si-fi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--69
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
 \OT1/cmr/m/n/12 ca-tion:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--69
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
 \OT1/cmr/m/n/12 So-lu-tion
  []
 
 
-Underfull \hbox (badness 1515) in paragraph at lines 69--69
+Underfull \hbox (badness 1515) in paragraph at lines 73--73
 \OT1/cmr/m/n/12 with Back
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--69
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
 \OT1/cmr/m/n/12 Prop-a-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--69
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
 \OT1/cmr/m/n/12 ga-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
 []\OT1/cmr/m/n/12 Automatic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
 \OT1/cmr/m/n/12 Cat-e-go-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
 \OT1/cmr/m/n/12 riza-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
 \OT1/cmr/m/n/12 of Emails
  []
 
 
-Underfull \hbox (badness 4193) in paragraph at lines 70--70
+Underfull \hbox (badness 4193) in paragraph at lines 74--74
 \OT1/cmr/m/n/12 into Fold-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--71
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
 []\OT1/cmr/m/n/12 Using
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--71
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
 \OT1/cmr/m/n/12 GNUs-mail
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--71
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
 \OT1/cmr/m/n/12 to com-
  []
 
 
-Underfull \hbox (badness 2213) in paragraph at lines 71--71
+Underfull \hbox (badness 2213) in paragraph at lines 75--75
 \OT1/cmr/m/n/12 pare Data
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--71
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
 \OT1/cmr/m/n/12 Stream
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--71
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
 \OT1/cmr/m/n/12 Min-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--71
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
 \OT1/cmr/m/n/12 Meth-ods
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--71
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
 \OT1/cmr/m/n/12 Email
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--71
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
 \OT1/cmr/m/n/12 Clas-si-fi-ca-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--72
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
 []\OT1/cmr/m/n/12 A graph
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--72
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
 \OT1/cmr/m/n/12 Based
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--72
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
 \OT1/cmr/m/n/12 Ap-proach
  []
 
 
-Underfull \hbox (badness 3895) in paragraph at lines 72--72
+Underfull \hbox (badness 3895) in paragraph at lines 76--76
 \OT1/cmr/m/n/12 for Multi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--72
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
 \OT1/cmr/m/n/12 Folder
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--72
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
 \OT1/cmr/m/n/12 Email
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--72
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
 \OT1/cmr/m/n/12 Clas-si-fi-ca-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--74
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
 []\OT1/cmr/m/n/12 Email
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--74
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
 \OT1/cmr/m/n/12 Clas-si-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--74
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
 \OT1/cmr/m/n/12 fi-ca-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--74
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
 \OT1/cmr/m/n/12 with Co-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--75
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
 []\OT1/cmr/m/n/12 Automatic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--75
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
 \OT1/cmr/m/n/12 Cat-e-go-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--75
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
 \OT1/cmr/m/n/12 riza-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--75
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
 \OT1/cmr/m/n/12 of Emails
  []
 
 
-Underfull \hbox (badness 4193) in paragraph at lines 75--75
+Underfull \hbox (badness 4193) in paragraph at lines 79--79
 \OT1/cmr/m/n/12 into Fold-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
 []\OT1/cmr/m/n/12 Email
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
 \OT1/cmr/m/n/12 Clas-si-fi-ca-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
 \OT1/cmr/m/n/12 Se-man-tic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
 \OT1/cmr/m/n/12 Fea-ture
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
 []\OT1/cmr/m/n/12 Automatic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
 \OT1/cmr/m/n/12 Cat-e-go-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
 \OT1/cmr/m/n/12 riza-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
 \OT1/cmr/m/n/12 of Emails
  []
 
 
-Underfull \hbox (badness 4193) in paragraph at lines 81--81
+Underfull \hbox (badness 4193) in paragraph at lines 85--85
 \OT1/cmr/m/n/12 into Fold-
  []
 
 
-Overfull \hbox (41.05783pt too wide) in paragraph at lines 62--90
+Overfull \hbox (41.05783pt too wide) in paragraph at lines 66--94
 [][] 
  []
 
-[3] [4]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 102.
+[4] [5]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 106.
 
  (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 102.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 106.
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [5] [6]
+ [6] [7]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [7]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
-
-[8] [9] [10] [11]
-Overfull \hbox (84.33392pt too wide) in paragraph at lines 388--389
+ [8]
+[9] [10] [11]
+Overfull \hbox (84.33392pt too wide) in paragraph at lines 390--391
 []\OT1/cmr/m/n/12 Documents ob-tained from http://www.comp.leeds.ac.uk/eric/lat
 ifa/research.html. 
  []
 
 
-Overfull \hbox (3.44165pt too wide) in paragraph at lines 421--421
+Overfull \hbox (3.44165pt too wide) in paragraph at lines 423--423
 []\OT1/cmr/bx/n/12 An Ob-ject Ori-ented Email Clus-ter-ing Model Us-ing Weighte
 d
  []
 
 [12] [13]
-Overfull \hbox (2.55003pt too wide) in paragraph at lines 481--481
+Overfull \hbox (2.55003pt too wide) in paragraph at lines 483--483
 []\OT1/cmr/bx/n/12 Content Based Email Clas-si-fi-ca-tion Sys-tem by ap-ply-ing
  Con-
  []
 
-[14] [15] [16] [17] (./taxonomy.aux) ) 
+[14] [15] [16] [17]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+
+Overfull \hbox (6.77365pt too wide) in paragraph at lines 642--642
+[]\OT1/cmr/bx/n/12 Email Cat-e-go-riza-tion Us-ing Multi-Stage Clas-si-fi-ca-ti
+on Tech-
+ []
+
+[18] [19] [20]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+ [21] [22]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+ [23] [24] [25] (./taxonomy.aux) ) 
 Here is how much of TeX's memory you used:
- 286 strings out of 495061
- 3191 string characters out of 1182622
+ 288 strings out of 495061
+ 3214 string characters out of 1182622
  54208 words of memory out of 3000000
- 3528 multiletter control sequences out of 15000+50000
+ 3530 multiletter control sequences out of 15000+50000
  9155 words of font info for 32 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 22i,8n,20p,222b,229s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/pub
-lic/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
-s/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.p
-fb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sh
-are/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on taxonomy.pdf (17 pages, 105971 bytes).
+ 22i,8n,20p,222b,303s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/
+amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm
+/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb><
+/usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/
+texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on taxonomy.pdf (25 pages, 120811 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
+ 103 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
